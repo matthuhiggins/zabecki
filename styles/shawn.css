@@ -1,0 +1,126 @@
+body {
+	color: #868686;
+	font: 8pt tahoma, arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-decoration: none; 
+}
+
+img {
+	border-style: none;
+}
+
+ul {
+	list-style: none;
+	margin: 10px 0;
+	padding: 0;
+}
+
+li {
+	height: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+span:hover {
+	color: #464646;
+}
+
+li span {
+	padding: 1px 3px;
+	cursor: pointer;
+}
+
+/* class settings */
+.selected {
+	background-color: #464646;
+	color: white;
+}
+
+.selected:hover {
+	color:white;
+}
+
+/* id settings */
+#content {
+	height: 645px;
+	left: 5px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	top: 8px;
+	width:800px;
+}
+
+#contentImage {
+	position: absolute;
+	height: 500px;
+	left: 0px;
+	top: 110px;
+	width: 800px
+}
+
+#descriptionImage {
+	height: 105px;
+	width:800px;
+}
+
+#contentOptions {
+  left: 658px;
+	position: absolute;
+	top: 623px;
+}
+
+#contentOptions span {
+	cursor: pointer;
+	padding: 1px 3px;
+}
+
+#contentOptions span {
+	padding: 1px 3px;
+}
+
+#portfolioLinks {
+	height: 500px;
+	margin-left: 0;
+	padding-left: 805px;
+	padding-top: 0;
+}
+
+#scrollArrows {
+  left: 750px;
+	position: absolute;
+	top: 620px;
+	width: 50px;
+}
+
+#scrollArrows div {
+	cursor: pointer;
+	height: 16px;
+	width: 16px;
+}
+
+#scrollArrowDown {
+	float: left;
+	background: #fff url("../images/arrowDown.gif") top;
+}
+
+#scrollArrowDown:hover {
+	background: #fff url("../images/arrowDownDark.gif") top;
+}
+
+#scrollArrowUp {
+	float: left;
+	background: #fff url("../images/arrowUp.gif") top;
+}
+
+#scrollArrowUp:hover {
+	background: #fff url("../images/arrowUpDark.gif") top;
+}
+
+#shadowOfDarkness {
+	background: #fff url(../images/shadow.jpg) top;
+	background-repeat: repeat-x;
+	height: 8px;
+}

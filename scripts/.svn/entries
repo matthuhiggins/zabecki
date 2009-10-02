@@ -1,0 +1,58 @@
+8
+
+dir
+25
+svn://localhost/zabecki/trunk/scripts
+svn://localhost
+
+
+
+2007-05-14T00:48:01.723602Z
+25
+matt
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7cb7d6ea-c92c-0410-8b7e-d18e010f2a56
+
+scriptaculous
+dir
+
+behaviour
+dir
+
+shawn.js
+file
+26
+
+
+
+2007-05-14T01:07:23.000000Z
+2d49abb8a7bb4b7054072897165af593
+2007-05-14T01:08:42.470874Z
+26
+matt
+
+quicktimehack.js
+file
+
+
+
+
+2007-04-07T23:49:36.000000Z
+4236f763cbed029af040190b3500d17f
+2007-04-07T23:25:12.151745Z
+11
+matt
+

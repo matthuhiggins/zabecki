@@ -1,0 +1,29 @@
+// Thanks to IE 7.0, quicktimes must be created dynamically 
+
+function emitmovie() {
+
+    document.write(
+
+	   "<object classid=\"clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B\" " +
+
+	   "		width=\"250\" height=\"690\" > " +
+
+	   "	<param name=\"SRC\" value=\"movies/microwave.mov\"> " +
+
+	   "	<param name=\"autoplay\" value=\"true\"> " +
+
+	   "	<param name=\"controller\" value=\"true\"> " +
+
+	   "	<param name=\"loop\" value=\"false\"> " +
+
+	   "	<embed src=\"movies/microwave.mov\"  " +
+
+	   "			pluginspage=\"http://www.apple.com/quicktime/download/\" height=\"690\" width=\"250\" " +
+
+	   "			autoplay=\"true\" loop=\"false\" controller=\"true\"> " +
+
+	   "	</embed> " +
+
+	   "</object> " );
+
+}
